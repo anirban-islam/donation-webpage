@@ -29,6 +29,8 @@ if(donatebal>0){
     newDiv.appendChild(head);
     newDiv.appendChild(pera);
 
+    const popmsg = document.getElementById('poop');
+    popmsg.classList.remove('popup-none');
 
 }
 else{
@@ -66,6 +68,9 @@ if(dona1n>0){
     head.innerHTML=(`${dona1n} Taka is Donate for Flood Relief at Feni Bangladesh `);
     newDiv.appendChild(head);
     newDiv.appendChild(pera);
+
+    const popmsg = document.getElementById('poop');
+    popmsg.classList.remove('popup-none');
 }
 else{
     alert("Invalid Input Try Again");
@@ -101,8 +106,19 @@ if(adona3>0){
     head.innerHTML=(`${adona3} Taka is Donate for for Injured in the Quota Movement  Bangladesh `);
     newDiv.appendChild(head);
     newDiv.appendChild(pera);
+
+    const popmsg = document.getElementById('poop');
+    popmsg.classList.remove('popup-none');
 }
 else{
     alert("Invalid Input Try Again");
 }
+});
+
+const conformation=document.getElementById('poop-btn');
+conformation.addEventListener('click',function(){
+const popupmassage=document.getElementById('poop');
+popupmassage.classList.add('popup-none');
+
+
 });

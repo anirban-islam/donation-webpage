@@ -248,3 +248,37 @@ nav{
     color:black;
     background-color: aqua;
 }
+/* popup */
+.pop{
+    width: 500px;
+    height: 400px;
+   position: fixed;
+   left: 40%;
+   top: 25%;
+}
+.popup{
+    width:100%;
+   background-color: aqua;
+   padding: 1rem 3rem;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   transition: all .3s ease-in-out;
+
+}
+.popup img{
+    width: 10%;
+}
+.popup h1{
+    font-size: 3rem;
+}
+.popup button{
+    background-color: aliceblue;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+.popup-none{
+    display: none;
+}
