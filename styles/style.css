@@ -39,6 +39,7 @@ p{
 }
 body{
     font-family: "Lexend", sans-serif;
+    
 }
 .divider{
     height: 2px;
@@ -52,13 +53,19 @@ body{
 }
 /* universal style End */
 /* Nav style Start  */
+nav{
+    position: relative;
+}
 #navmenu{
     display: flex;
-    background-color: red;
     align-items: center;
     justify-content: space-between;
     padding: .5rem 5rem;
     background-color: var(--bgcolor);
+    position: sticky;
+    top: 0;
+    width: 100;
+    
 
 }
 .blog button{
@@ -97,9 +104,10 @@ body{
     width: 100%;
     font-weight: 500;
     margin-top: 5rem;
+    position: sticky;
 }
 .btn2{
-    background-color: white;
+    background-color: var(--border);
     border: 1px solid var(--border);
 }
 /* btn Nav style End*/
@@ -128,6 +136,10 @@ body{
     justify-content: space-around;
     padding: 0 2rem;
 }
+.card-1-content h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 .card-1-balance{
     display: flex;
     align-items: center;
@@ -153,3 +165,4 @@ body{
     padding: .8rem;
     border-radius: .5rem;
 }
+/* popup window */
