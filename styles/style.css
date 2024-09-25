@@ -101,12 +101,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:1rem;
+    gap:3rem;
     width: 100%;
     font-weight: 500;
     margin-top:0;
     position: sticky;
-    top: 8%;
+    top: 12%;
     padding: 2rem;
     background-color: aliceblue;
     background: transparent aliceblue;
@@ -303,13 +303,7 @@ span{
     .brand-name{
         display: none;
     }
-    .navigator{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem 5rem;
 
-    }
     .card-1{
         display: flex;
         width:90%;
@@ -332,8 +326,8 @@ span{
     .pop{
         width: 350px;
         height: 250px;
-        left: 8%;
-        top: 25%;
+        left: 5%;
+        top: 22%;
     }
     .divu{
         margin-top:1rem;
@@ -362,8 +356,6 @@ span{
     }
     .navigator{
         position: sticky;
-        top: 5%;
-        padding: 1rem 5rem;
     }
     .hiddendonate{
         display: none;
