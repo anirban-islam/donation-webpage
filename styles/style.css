@@ -106,7 +106,7 @@ nav{
     font-weight: 500;
     margin-top:0;
     position: sticky;
-    top: 10%;
+    top: 8%;
     padding: 2rem;
     background-color: aliceblue;
     background: transparent aliceblue;
@@ -326,7 +326,7 @@ span{
     .pop{
         width: 350px;
         height: 250px;
-        left:0%;
+        left:1%;
         top: 22%;
     }
     .divu{
