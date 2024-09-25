@@ -282,9 +282,9 @@ nav{
 }
 
 .foot{
-    width: 95vw;
     text-align: center;
     padding: 1rem 0rem;
+    font-size: .9rem;
 
 }
 span{
