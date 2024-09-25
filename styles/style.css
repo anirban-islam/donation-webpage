@@ -330,9 +330,9 @@ span{
         padding: 1rem;
     }
     .pop{
-        width: 400px;
-        height: 300px;
-        left: 9%;
+        width: 350px;
+        height: 250px;
+        left: 8%;
         top: 25%;
     }
     .divu{
@@ -362,7 +362,8 @@ span{
     }
     .navigator{
         position: sticky;
-        top: 8%;
+        top: 5%;
+        padding: 1rem 5rem;
     }
     .hiddendonate{
         display: none;
