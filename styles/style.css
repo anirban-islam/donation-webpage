@@ -123,8 +123,6 @@ nav{
     margin: 2rem auto;
     border: 2px solid var(--border);
     padding: 1rem;
-    text-align: justify;
-    /* gap: 2rem; */
     border-radius: 1rem;
 }
 .hiddendonate{
@@ -281,4 +279,89 @@ nav{
 }
 .popup-none{
     display: none;
+}
+
+.foot{
+    width: 95vw;
+    text-align: center;
+    padding: 1rem 0rem;
+
+}
+span{
+    background-color: aqua;
+}
+
+/* Small Device */
+@media screen and (max-width:576px) {
+    #navmenu{
+        padding: 1rem .5rem;
+    }
+    .blog button{
+        padding: .5rem 2rem;
+    }
+    .brand-name{
+        display: none;
+    }
+    .navigator{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 5rem;
+
+    }
+    .card-1{
+        display: flex;
+        width:95%;
+        margin: 1rem auto;
+         flex-direction: column;
+    }
+    .card-img{
+        width: 100%;
+    }
+    .card-img img{
+        width: 100%;
+    }
+    .card-description{
+        width: 100%;
+        justify-content: space-around;
+        margin: 1rem ;
+        gap: 1rem;
+        padding: 0rem;
+    }
+    .pop{
+        width: 400px;
+        height: 300px;
+        left: 10%;
+        top: 25%;
+    }
+    .divu{
+        margin-top:1rem;
+    }
+    .faq-content{
+        width: 90%;
+        margin-top: 1rem;
+    }
+    .faq-content p{
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        text-align: center;
+    }
+    .faq-content h2{
+        font-size: 1rem;
+    }
+    .faq-ans{
+        width: 90%;
+    }
+    .hhh {
+        text-align: center;
+        font-size: 2rem;
+        margin:.5rem 0rem;
+        color: black;
+    }
+    .navigator{
+        position: sticky;
+        top: 14%;
+    }
+
 }
