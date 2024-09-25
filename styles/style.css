@@ -294,7 +294,8 @@ span{
 /* Small Device */
 @media screen and (max-width:576px) {
     #navmenu{
-        padding: 1rem .5rem;
+        padding: 1rem 1rem;
+        width: 100%;
     }
     .blog button{
         padding: .5rem 2rem;
@@ -311,7 +312,7 @@ span{
     }
     .card-1{
         display: flex;
-        width:95%;
+        width:90%;
         margin: 1rem auto;
          flex-direction: column;
     }
@@ -324,14 +325,14 @@ span{
     .card-description{
         width: 100%;
         justify-content: space-around;
-        margin: 1rem ;
+        margin: 1rem auto;
         gap: 1rem;
-        padding: 0rem;
+        padding: 1rem;
     }
     .pop{
         width: 400px;
         height: 300px;
-        left: 10%;
+        left: 9%;
         top: 25%;
     }
     .divu{
@@ -361,7 +362,12 @@ span{
     }
     .navigator{
         position: sticky;
-        top: 14%;
+        top: 8%;
     }
-
+    .hiddendonate{
+        display: none;
+    }
+    .datahis{
+        width: 90%;
+    }
 }
