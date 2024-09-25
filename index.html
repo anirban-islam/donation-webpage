@@ -17,7 +17,7 @@
     <nav>
         <section id="navmenu">
             <div class="blog">
-                <button>Blog</button>
+                <button><a href="./faq.html">Blog</a></button>
             </div>
             <div class="brand-name">
                 <img src="./Assets/logo.png" alt="">
@@ -35,14 +35,14 @@
     <main>
         <!-- Btn Navigator Start -->
         <section class="navigator">
-            <button class="btn-pri">Donate</button>
-            <button class="btn-pri btn2">History</button>     
+            <button id="donatebtn" class="btn-pri ">Donate</button>
+            <button id="historybtn" class="btn-pri btn2">History</button>     
         </section>
         <!-- Btn Navigator End -->
 
         <!-- Card Style Start  -->
         <!-- First Card -->
-         <section class="card-1">
+         <section class="card-1" id="donatecard">
             <div class="card-img">
                 <img src="./Assets/noakhali.png" alt="">
             </div>
@@ -63,7 +63,7 @@
             </div>
          </section>
          <!-- Card 2 -->
-         <section class="card-1">
+         <section class="card-1" id="donatecard1">
             <div class="card-img">
                 <img src="./Assets/feni.png" alt="">
             </div>
@@ -85,7 +85,7 @@
          </section>
          <!-- 2nd Card End -->    
           <!-- 3rd Class Start -->
-          <section class="card-1">
+          <section class="card-1" id="donatecard2">
             <div class="card-img">
                 <img src="./Assets/quota-protest.png" alt="">
             </div>
@@ -105,12 +105,14 @@
                 </div>        
             </div>
          </section>
-         <section id="popup">
-            <div class="popup-des">
+         <section>
+            <div id="history" class="hide">
 
             </div>
+          
          </section>
     </main>
 <script src="./app.js"></script>
+<script src="./navigate.js"></script>
 </body>
 </html>

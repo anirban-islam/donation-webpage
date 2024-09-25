@@ -14,9 +14,25 @@ if(donatebal>0){
     const updatemainbal=accountamount-donatebal;
     showbal.innerHTML=updatebalance;
     accbal.innerHTML=updatemainbal;
+
+    const mainDiv=document.getElementById('history');
+    const newDiv=document.createElement('myDiv');
+  
+    const date = new Date();
+    newDiv.classList.add('datahis');
+    const head=document.createElement('h2');
+    const pera=document.createElement('p');
+    pera.innerHTML=date;
+    mainDiv.appendChild(newDiv);
+    
+    head.innerHTML=(`${donatebal} Taka is Donate for famine-2024 at Noakhali , Bangladesh `);
+    newDiv.appendChild(head);
+    newDiv.appendChild(pera);
+
+
 }
 else{
-    alert("Invalid Amount Try Agein");
+    alert("Invalid Amount Try Again");
 }
 });
 
@@ -36,6 +52,20 @@ if(dona1n>0){
     accbal2.innerHTML=update2;
     const ushowb=dona1n+sbal2n;
     sbalance.innerHTML=ushowb;
+
+    const mainDiv=document.getElementById('history');
+    const newDiv=document.createElement('myDiv');
+  
+    const date = new Date();
+    newDiv.classList.add('datahis');
+    const head=document.createElement('h2');
+    const pera=document.createElement('p');
+    pera.innerHTML=date;
+    mainDiv.appendChild(newDiv);
+    
+    head.innerHTML=(`${dona1n} Taka is Donate for Flood Relief at Feni Bangladesh `);
+    newDiv.appendChild(head);
+    newDiv.appendChild(pera);
 }
 else{
     alert("Invalid Input Try Again");
@@ -57,7 +87,20 @@ if(adona3>0){
     const updateshow3=nsbal3+adona3;
     accbal3.innerHTML=updatemain3;
     sbal3.innerHTML=updateshow3;
-    console.log(updateshow3);
+
+    const mainDiv=document.getElementById('history');
+    const newDiv=document.createElement('myDiv');
+  
+    const date = new Date();
+    newDiv.classList.add('datahis');
+    const head=document.createElement('h2');
+    const pera=document.createElement('p');
+    pera.innerHTML=date;
+    mainDiv.appendChild(newDiv);
+    
+    head.innerHTML=(`${adona3} Taka is Donate for for Injured in the Quota Movement  Bangladesh `);
+    newDiv.appendChild(head);
+    newDiv.appendChild(pera);
 }
 else{
     alert("Invalid Input Try Again");
